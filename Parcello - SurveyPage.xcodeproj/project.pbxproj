@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D38B97702AAB2E3600673C00 /* Parcello___SurveyPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B976F2AAB2E3600673C00 /* Parcello___SurveyPageApp.swift */; };
+		D38B97722AAB2E3600673C00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B97712AAB2E3600673C00 /* ContentView.swift */; };
+		D38B97742AAB2E3800673C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B97732AAB2E3800673C00 /* Assets.xcassets */; };
+		D38B97772AAB2E3800673C00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B97762AAB2E3800673C00 /* Preview Assets.xcassets */; };
+		D38B97812AAB2E3800673C00 /* Parcello___SurveyPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B97802AAB2E3800673C00 /* Parcello___SurveyPageTests.swift */; };
+		D38B978B2AAB2E3800673C00 /* Parcello___SurveyPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B978A2AAB2E3800673C00 /* Parcello___SurveyPageUITests.swift */; };
+		D38B978D2AAB2E3800673C00 /* Parcello___SurveyPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B978C2AAB2E3800673C00 /* Parcello___SurveyPageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38B977D2AAB2E3800673C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38B97642AAB2E3600673C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38B976B2AAB2E3600673C00;
+			remoteInfo = "Parcello - SurveyPage";
+		};
+		D38B97872AAB2E3800673C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38B97642AAB2E3600673C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38B976B2AAB2E3600673C00;
+			remoteInfo = "Parcello - SurveyPage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D38B976C2AAB2E3600673C00 /* Parcello - SurveyPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parcello - SurveyPage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B976F2AAB2E3600673C00 /* Parcello___SurveyPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parcello___SurveyPageApp.swift"; sourceTree = "<group>"; };
+		D38B97712AAB2E3600673C00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D38B97732AAB2E3800673C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38B97762AAB2E3800673C00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D38B977C2AAB2E3800673C00 /* Parcello - SurveyPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parcello - SurveyPageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B97802AAB2E3800673C00 /* Parcello___SurveyPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parcello___SurveyPageTests.swift"; sourceTree = "<group>"; };
+		D38B97862AAB2E3800673C00 /* Parcello - SurveyPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parcello - SurveyPageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B978A2AAB2E3800673C00 /* Parcello___SurveyPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parcello___SurveyPageUITests.swift"; sourceTree = "<group>"; };
+		D38B978C2AAB2E3800673C00 /* Parcello___SurveyPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parcello___SurveyPageUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38B97692AAB2E3600673C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B97792AAB2E3800673C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B97832AAB2E3800673C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38B97632AAB2E3600673C00 = {
+			isa = PBXGroup;
+			children = (
+				D38B976E2AAB2E3600673C00 /* Parcello - SurveyPage */,
+				D38B977F2AAB2E3800673C00 /* Parcello - SurveyPageTests */,
+				D38B97892AAB2E3800673C00 /* Parcello - SurveyPageUITests */,
+				D38B976D2AAB2E3600673C00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38B976D2AAB2E3600673C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38B976C2AAB2E3600673C00 /* Parcello - SurveyPage.app */,
+				D38B977C2AAB2E3800673C00 /* Parcello - SurveyPageTests.xctest */,
+				D38B97862AAB2E3800673C00 /* Parcello - SurveyPageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38B976E2AAB2E3600673C00 /* Parcello - SurveyPage */ = {
+			isa = PBXGroup;
+			children = (
+				D38B976F2AAB2E3600673C00 /* Parcello___SurveyPageApp.swift */,
+				D38B97712AAB2E3600673C00 /* ContentView.swift */,
+				D38B97732AAB2E3800673C00 /* Assets.xcassets */,
+				D38B97752AAB2E3800673C00 /* Preview Content */,
+			);
+			path = "Parcello - SurveyPage";
+			sourceTree = "<group>";
+		};
+		D38B97752AAB2E3800673C00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D38B97762AAB2E3800673C00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D38B977F2AAB2E3800673C00 /* Parcello - SurveyPageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38B97802AAB2E3800673C00 /* Parcello___SurveyPageTests.swift */,
+			);
+			path = "Parcello - SurveyPageTests";
+			sourceTree = "<group>";
+		};
+		D38B97892AAB2E3800673C00 /* Parcello - SurveyPageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38B978A2AAB2E3800673C00 /* Parcello___SurveyPageUITests.swift */,
+				D38B978C2AAB2E3800673C00 /* Parcello___SurveyPageUITestsLaunchTests.swift */,
+			);
+			path = "Parcello - SurveyPageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38B976B2AAB2E3600673C00 /* Parcello - SurveyPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B97902AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPage" */;
+			buildPhases = (
+				D38B97682AAB2E3600673C00 /* Sources */,
+				D38B97692AAB2E3600673C00 /* Frameworks */,
+				D38B976A2AAB2E3600673C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parcello - SurveyPage";
+			productName = "Parcello - SurveyPage";
+			productReference = D38B976C2AAB2E3600673C00 /* Parcello - SurveyPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38B977B2AAB2E3800673C00 /* Parcello - SurveyPageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B97932AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPageTests" */;
+			buildPhases = (
+				D38B97782AAB2E3800673C00 /* Sources */,
+				D38B97792AAB2E3800673C00 /* Frameworks */,
+				D38B977A2AAB2E3800673C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38B977E2AAB2E3800673C00 /* PBXTargetDependency */,
+			);
+			name = "Parcello - SurveyPageTests";
+			productName = "Parcello - SurveyPageTests";
+			productReference = D38B977C2AAB2E3800673C00 /* Parcello - SurveyPageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D38B97852AAB2E3800673C00 /* Parcello - SurveyPageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B97962AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPageUITests" */;
+			buildPhases = (
+				D38B97822AAB2E3800673C00 /* Sources */,
+				D38B97832AAB2E3800673C00 /* Frameworks */,
+				D38B97842AAB2E3800673C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38B97882AAB2E3800673C00 /* PBXTargetDependency */,
+			);
+			name = "Parcello - SurveyPageUITests";
+			productName = "Parcello - SurveyPageUITests";
+			productReference = D38B97862AAB2E3800673C00 /* Parcello - SurveyPageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38B97642AAB2E3600673C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D38B976B2AAB2E3600673C00 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D38B977B2AAB2E3800673C00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D38B976B2AAB2E3600673C00;
+					};
+					D38B97852AAB2E3800673C00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D38B976B2AAB2E3600673C00;
+					};
+				};
+			};
+			buildConfigurationList = D38B97672AAB2E3600673C00 /* Build configuration list for PBXProject "Parcello - SurveyPage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38B97632AAB2E3600673C00;
+			productRefGroup = D38B976D2AAB2E3600673C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38B976B2AAB2E3600673C00 /* Parcello - SurveyPage */,
+				D38B977B2AAB2E3800673C00 /* Parcello - SurveyPageTests */,
+				D38B97852AAB2E3800673C00 /* Parcello - SurveyPageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38B976A2AAB2E3600673C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B97772AAB2E3800673C00 /* Preview Assets.xcassets in Resources */,
+				D38B97742AAB2E3800673C00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B977A2AAB2E3800673C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B97842AAB2E3800673C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38B97682AAB2E3600673C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B97722AAB2E3600673C00 /* ContentView.swift in Sources */,
+				D38B97702AAB2E3600673C00 /* Parcello___SurveyPageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B97782AAB2E3800673C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B97812AAB2E3800673C00 /* Parcello___SurveyPageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B97822AAB2E3800673C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B978B2AAB2E3800673C00 /* Parcello___SurveyPageUITests.swift in Sources */,
+				D38B978D2AAB2E3800673C00 /* Parcello___SurveyPageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38B977E2AAB2E3800673C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38B976B2AAB2E3600673C00 /* Parcello - SurveyPage */;
+			targetProxy = D38B977D2AAB2E3800673C00 /* PBXContainerItemProxy */;
+		};
+		D38B97882AAB2E3800673C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38B976B2AAB2E3600673C00 /* Parcello - SurveyPage */;
+			targetProxy = D38B97872AAB2E3800673C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D38B978E2AAB2E3800673C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D38B978F2AAB2E3800673C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38B97912AAB2E3800673C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parcello - SurveyPage/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38B97922AAB2E3800673C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Parcello - SurveyPage/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D38B97942AAB2E3800673C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parcello - SurveyPage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parcello - SurveyPage";
+			};
+			name = Debug;
+		};
+		D38B97952AAB2E3800673C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parcello - SurveyPage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parcello - SurveyPage";
+			};
+			name = Release;
+		};
+		D38B97972AAB2E3800673C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parcello - SurveyPage";
+			};
+			name = Debug;
+		};
+		D38B97982AAB2E3800673C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Parcello---SurveyPageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parcello - SurveyPage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38B97672AAB2E3600673C00 /* Build configuration list for PBXProject "Parcello - SurveyPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B978E2AAB2E3800673C00 /* Debug */,
+				D38B978F2AAB2E3800673C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38B97902AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B97912AAB2E3800673C00 /* Debug */,
+				D38B97922AAB2E3800673C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38B97932AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B97942AAB2E3800673C00 /* Debug */,
+				D38B97952AAB2E3800673C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38B97962AAB2E3800673C00 /* Build configuration list for PBXNativeTarget "Parcello - SurveyPageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B97972AAB2E3800673C00 /* Debug */,
+				D38B97982AAB2E3800673C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38B97642AAB2E3600673C00 /* Project object */;
+}
